@@ -12,7 +12,6 @@ void deletion(int *arr, int pos, int &n) {
         n--;
     }
 }
-
 void displayArr(int *arr, int n) {
     cout << "Array : [ ";
     for (int i = 0; i < n; i++) {
