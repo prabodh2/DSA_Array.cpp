@@ -22,7 +22,6 @@ void displayArr(int *arr, int n) {
         }
     }
 }
-
 int main() {
 
     int arr[100];
@@ -35,11 +34,9 @@ int main() {
     for (int i = 0; i < num; i++) {
         cin >> arr[i];
     }
-
     int pos = 0;
     cout << "Enter the last index position of the element : ";
     cin >> pos;
-
     if (pos < -1 || pos >= num) {
         cout << "Invalid position. Please enter a position between -1 and " << num - 1 << "." << endl;
     } else {
