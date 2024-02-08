@@ -19,18 +19,14 @@ void displayArr(int *arr, int n) {
     }
 }
 int main() {
-
     int arr[100];
     fill_n(arr, 100, -1);
-
     int num = 0;
     cout << "Enter the length of the array: ";
     cin >> num;
-
     for (int i = 0; i < num; i++) {
         cin >> arr[i];
     }
-
     int pos = 0;
     cout << "Enter the index position of the element : ";
     cin >> pos;
