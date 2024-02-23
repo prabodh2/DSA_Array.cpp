@@ -31,7 +31,6 @@ void displayMenu() {
     arr[size++] = element;
     cout << "Element inserted at the end successfully!" << endl;
     }
-
     void insertElementBeforeElement(int arr[], int &size, int element,
                                     int reference) {
     int index = -1;
@@ -52,7 +51,6 @@ void displayMenu() {
         cout << "Reference element not found!" << endl;
     }
     }
-
     void insertElementAfterElement(int arr[], int &size, int element,
                                     int reference) {
     int index = -1;
@@ -73,7 +71,6 @@ void displayMenu() {
         cout << "Reference element not found!" << endl;
     }
     }
-
     void deleteElementAtBeginning(int arr[], int &size) {
     if (size == 0) {
         cout << "Array is empty, no elements to delete!" << endl;
