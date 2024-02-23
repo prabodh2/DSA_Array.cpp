@@ -14,7 +14,6 @@ public:
         next = NULL;
     }
 };
-
 int main()
 {
     int n;
