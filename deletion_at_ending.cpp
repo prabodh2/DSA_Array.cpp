@@ -43,6 +43,5 @@ int main() {
         deletion(arr, pos, num);
         displayArr(arr, num);
     }
-
     return 0;
 }
