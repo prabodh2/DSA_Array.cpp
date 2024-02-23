@@ -47,10 +47,8 @@ int main()
     }
     else
     {
-        
         while (preptr->data != a)
         {
-            
             preptr = p;
             p = p->next;
             if (p==NULL){
