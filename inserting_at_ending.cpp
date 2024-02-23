@@ -42,7 +42,6 @@ void implementInsertAtEnd() {
     cout << "New ";
     displayArr(arr, numOfEleInArr);
 }
-
 int main() {
     implementInsertAtEnd();
     return 0;
