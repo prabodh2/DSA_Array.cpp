@@ -15,7 +15,6 @@ void displayMenu() {
     cout << "10. Display Array" << endl;
     cout << "0. Exit" << endl;
     }
-
     void insertElementAtBeginning(int arr[], int &size, int element) {
     if (size == 0) {
         arr[size++] = element;
