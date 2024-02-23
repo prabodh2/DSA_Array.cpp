@@ -27,7 +27,6 @@ void displayMenu() {
     }
     cout << "Element inserted at the beginning successfully!" << endl;
     }
-
     void insertElementAtEnd(int arr[], int &size, int element) {
     arr[size++] = element;
     cout << "Element inserted at the end successfully!" << endl;
@@ -141,7 +140,6 @@ void displayMenu() {
     }
     return -1;
     }
-
     int main() {
     const int MAX_SIZE = 100;
     int arr[MAX_SIZE];
